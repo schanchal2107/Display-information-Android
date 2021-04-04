@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.info.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="About Apollo"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+
+
+    <ScrollView android:layout_marginTop="30dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Apollo Hospitals Enterprise Limited is an Indian hospital chain based in Chennai, India. It was founded by Prathap C. Reddy in 1983 as the first corporate healthcare provider in India. Wikipedia
+Stock price: APOLLOHOSP (NSE) ₹3,001.50 +25.15 (+0.84%)
+15 Mar, 10:00 am GMT - Disclaimer
+Founder: Prathap C. Reddy
+Founded: 1983
+Headquarters: Chennai
+Emergency: 1066
+Revenue: 11,273 crores INR (US$1.6 billion, 2020)
+Subsidiaries: Apollo Hospital, Indraprastha, Apollo Pharmacy Ltd.,
+Cio
+Arvind Sivaramakrishnan
+Arvind Sivaramakrishnan, Group CIO at Apollo Hospitals won the award for devising processes to increase levels of patient safety, quality and clinical care by adopting innovation in care process.
+Products
+All Out Ultra Refill 45ml. ...
+Apollo Life Unisex Adult Diapers Extra Large 10's. ...
+Apollo Pharmacy Blood Pressure Monitor. ...
+Apollo Life Electro Choice Orange Flavour 200ml. ...
+Apollo Pharmacy Multivitamin Soft gels for Men 10S. ...
+Apollo Pharmacy Compressor Nebulizer. ...
+Apollo Life Unisex Adult Diapers Large 10's."></TextView>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
